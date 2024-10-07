@@ -11,7 +11,7 @@
 hint: что такое print?
 """
 
-# Замените это своим кодом
+print ("Hello world")
 
 """
  _____         _      _____ 
@@ -27,7 +27,16 @@ hint: что такое print?
 hint: цикл, если и "%"
 """
 
-# Замените это своим кодом
+# x = int(input("Введите число больше единицы"))+1
+# for i in range (1, x):
+#   if i % 3==0:
+#     print ("Fizz")
+#   elif i % 5==0:
+#     print ("Buzz")
+#   elif i % 3==0 and i % 5==0:
+#     print ("FizzBuzz")
+#   else:
+#     print (i)    
 
 """
  _____         _      _____ 
@@ -41,8 +50,13 @@ hint: цикл, если и "%"
 
 hint: https://ru.wikihow.com/%D0%B2%D1%8B%D1%81%D1%87%D0%B8%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D1%8C-%D0%B2%D0%B8%D1%81%D0%BE%D0%BA%D0%BE%D1%81%D0%BD%D1%8B%D0%B5-%D0%B3%D0%BE%D0%B4%D1%8B
 """
-
-# Замените это своим кодом
+year = int(input(" Введите год"))
+if year % 4 == 0: 
+ if year % 100 != 0:
+  if year % 400 == 0: 
+    print ("Leap year")
+else:
+ print("Not a leap year")
 
 """
  _____         _        ___ 
